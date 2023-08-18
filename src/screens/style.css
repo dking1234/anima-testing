@@ -1,0 +1,1726 @@
+.dashboard {
+    background-color: #fbfbfb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .dashboard .div {
+    background-color: #fbfbfb;
+    border: 1px none;
+    height: 832px;
+    position: relative;
+    width: 1280px;
+  }
+  
+  .dashboard .group {
+    height: 18px;
+    left: 347px;
+    position: absolute;
+    top: 92px;
+    width: 99px;
+  }
+  
+  .dashboard .text-wrapper {
+    color: #8c8c8c;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .dashboard .overlap {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px #0000001a;
+    height: 316px;
+    left: 349px;
+    position: absolute;
+    top: 144px;
+    width: 527px;
+  }
+  
+  .dashboard .text-wrapper-2 {
+    color: #353535;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+  }
+  
+  .dashboard .text-wrapper-3 {
+    color: #353535;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    left: 245px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+  }
+  
+  .dashboard .text-wrapper-4 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 389px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+  }
+  
+  .dashboard .text-wrapper-5 {
+    color: #a5a2a2;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    left: 464px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 403px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 284px;
+  }
+  
+  .dashboard .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 284px;
+  }
+  
+  .dashboard .overlap-group {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 77px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle {
+    background-color: #56b85d;
+    height: 120px;
+    position: relative;
+    top: 71px;
+  }
+  
+  .dashboard .rectangle-wrapper {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 89px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-2 {
+    background-color: #a3f5a9;
+    height: 96px;
+    position: relative;
+    top: 95px;
+  }
+  
+  .dashboard .div-wrapper {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 113px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-3 {
+    background-color: #56b85d;
+    height: 157px;
+    position: relative;
+    top: 34px;
+  }
+  
+  .dashboard .overlap-2 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 125px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-4 {
+    background-color: #a3f5a9;
+    height: 120px;
+    position: relative;
+    top: 71px;
+  }
+  
+  .dashboard .overlap-3 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 149px;
+    position: absolute;
+    top: 57px;
+    width: 11px;
+  }
+  
+  .dashboard .rectangle-5 {
+    background-color: #56b85d;
+    height: 81px;
+    position: relative;
+    top: 110px;
+  }
+  
+  .dashboard .overlap-4 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 162px;
+    position: absolute;
+    top: 57px;
+    width: 11px;
+  }
+  
+  .dashboard .rectangle-6 {
+    background-color: #a3f5a9;
+    height: 108px;
+    position: relative;
+    top: 83px;
+  }
+  
+  .dashboard .overlap-5 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 185px;
+    position: absolute;
+    top: 57px;
+    width: 11px;
+  }
+  
+  .dashboard .rectangle-7 {
+    background-color: #56b85d;
+    height: 181px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .dashboard .overlap-6 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 198px;
+    position: absolute;
+    top: 57px;
+    width: 11px;
+  }
+  
+  .dashboard .rectangle-8 {
+    background-color: #a3f5a9;
+    height: 144px;
+    position: relative;
+    top: 47px;
+  }
+  
+  .dashboard .overlap-7 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 223px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-9 {
+    background-color: #56b85d;
+    height: 146px;
+    position: relative;
+    top: 45px;
+  }
+  
+  .dashboard .overlap-8 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 235px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-10 {
+    background-color: #a3f5a9;
+    height: 113px;
+    position: relative;
+    top: 78px;
+  }
+  
+  .dashboard .overlap-9 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 261px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-11 {
+    background-color: #56b85d;
+    height: 128px;
+    position: relative;
+    top: 63px;
+  }
+  
+  .dashboard .overlap-10 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 273px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-12 {
+    background-color: #a3f5a9;
+    height: 110px;
+    position: relative;
+    top: 81px;
+  }
+  
+  .dashboard .overlap-11 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 297px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-13 {
+    background-color: #56b85d;
+    height: 175px;
+    position: relative;
+    top: 16px;
+  }
+  
+  .dashboard .overlap-12 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 309px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-14 {
+    background-color: #a3f5a9;
+    height: 122px;
+    position: relative;
+    top: 69px;
+  }
+  
+  .dashboard .overlap-13 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 330px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-15 {
+    background-color: #56b85d;
+    height: 184px;
+    position: relative;
+    top: 7px;
+  }
+  
+  .dashboard .overlap-14 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 342px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-16 {
+    background-color: #a3f5a9;
+    height: 157px;
+    position: relative;
+    top: 34px;
+  }
+  
+  .dashboard .overlap-15 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 366px;
+    position: absolute;
+    top: 57px;
+    width: 11px;
+  }
+  
+  .dashboard .overlap-16 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 379px;
+    position: absolute;
+    top: 57px;
+    width: 11px;
+  }
+  
+  .dashboard .overlap-17 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 404px;
+    position: absolute;
+    top: 57px;
+    width: 11px;
+  }
+  
+  .dashboard .rectangle-17 {
+    background-color: #56b85d;
+    height: 166px;
+    position: relative;
+    top: 25px;
+  }
+  
+  .dashboard .overlap-18 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 417px;
+    position: absolute;
+    top: 57px;
+    width: 11px;
+  }
+  
+  .dashboard .rectangle-18 {
+    background-color: #a3f5a9;
+    height: 124px;
+    position: relative;
+    top: 67px;
+  }
+  
+  .dashboard .overlap-19 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 442px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-19 {
+    background-color: #56b85d;
+    height: 90px;
+    position: relative;
+    top: 101px;
+  }
+  
+  .dashboard .overlap-20 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 454px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-20 {
+    background-color: #a3f5a9;
+    height: 131px;
+    position: relative;
+    top: 60px;
+  }
+  
+  .dashboard .overlap-21 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 479px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .rectangle-21 {
+    background-color: #56b85d;
+    height: 141px;
+    position: relative;
+    top: 50px;
+  }
+  
+  .dashboard .overlap-22 {
+    background-color: #ebebeb;
+    height: 191px;
+    left: 491px;
+    position: absolute;
+    top: 57px;
+    width: 10px;
+  }
+  
+  .dashboard .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 236px;
+  }
+  
+  .dashboard .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 191px;
+  }
+  
+  .dashboard .text-wrapper-10 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 146px;
+  }
+  
+  .dashboard .text-wrapper-11 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 101px;
+  }
+  
+  .dashboard .text-wrapper-12 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 56px;
+  }
+  
+  .dashboard .text-wrapper-13 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 18px;
+  }
+  
+  .dashboard .text-wrapper-14 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 116px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 18px;
+  }
+  
+  .dashboard .text-wrapper-15 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 152px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 19px;
+  }
+  
+  .dashboard .text-wrapper-16 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 189px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 18px;
+  }
+  
+  .dashboard .text-wrapper-17 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 225px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 20px;
+  }
+  
+  .dashboard .text-wrapper-18 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 263px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 18px;
+  }
+  
+  .dashboard .text-wrapper-19 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 14px;
+  }
+  
+  .dashboard .text-wrapper-20 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 332px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 20px;
+  }
+  
+  .dashboard .text-wrapper-21 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 370px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 19px;
+  }
+  
+  .dashboard .text-wrapper-22 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 407px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 18px;
+  }
+  
+  .dashboard .text-wrapper-23 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 444px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 19px;
+  }
+  
+  .dashboard .text-wrapper-24 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 482px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 255px;
+    white-space: nowrap;
+    width: 19px;
+  }
+  
+  .dashboard .rectangle-22 {
+    background-color: #56b85d;
+    height: 12px;
+    left: 383px;
+    position: absolute;
+    top: 287px;
+    width: 12px;
+  }
+  
+  .dashboard .rectangle-23 {
+    background-color: #a4f5a9;
+    height: 12px;
+    left: 447px;
+    position: absolute;
+    top: 287px;
+    width: 12px;
+  }
+  
+  .dashboard .overlap-23 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px #0000001a;
+    height: 301px;
+    left: 349px;
+    position: absolute;
+    top: 480px;
+    width: 527px;
+  }
+  
+  .dashboard .text-wrapper-25 {
+    color: #353535;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+  }
+  
+  .dashboard .upload-wrapper {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/67956cbf81aa7e5a8da7015c9e86251f/img/rectangle-21.svg);
+    background-size: 100% 100%;
+    height: 39px;
+    left: 34px;
+    position: absolute;
+    top: 61px;
+    width: 39px;
+  }
+  
+  .dashboard .upload {
+    height: 20px;
+    left: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 20px;
+  }
+  
+  .dashboard .fuel-wrapper {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/67956cbf81aa7e5a8da7015c9e86251f/img/rectangle-21.svg);
+    background-size: 100% 100%;
+    height: 39px;
+    left: 34px;
+    position: absolute;
+    top: 115px;
+    width: 39px;
+  }
+  
+  .dashboard .fuel {
+    height: 20px;
+    left: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 20px;
+  }
+  
+  .dashboard .img-wrapper {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/67956cbf81aa7e5a8da7015c9e86251f/img/rectangle-21.svg);
+    background-size: 100% 100%;
+    height: 39px;
+    left: 34px;
+    position: absolute;
+    top: 169px;
+    width: 39px;
+  }
+  
+  .dashboard .img {
+    height: 20px;
+    left: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 11px;
+    width: 20px;
+  }
+  
+  .dashboard .withdraw-wrapper {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/67956cbf81aa7e5a8da7015c9e86251f/img/rectangle-21.svg);
+    background-size: 100% 100%;
+    height: 39px;
+    left: 34px;
+    position: absolute;
+    top: 223px;
+    width: 39px;
+  }
+  
+  .dashboard .withdraw {
+    height: 20px;
+    left: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 12px;
+    width: 20px;
+  }
+  
+  .dashboard .ths {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 372px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 72px;
+  }
+  
+  .dashboard .p {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 382px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 127px;
+  }
+  
+  .dashboard .ths-2 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 392px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 178px;
+  }
+  
+  .dashboard .ths-3 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 380px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 229px;
+  }
+  
+  .dashboard .text-wrapper-26 {
+    color: #717171;
+    font-family: "Inter", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 80px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-27 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 454px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 25px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-28 {
+    color: #717171;
+    font-family: "Inter", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 136px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-29 {
+    color: #717171;
+    font-family: "Inter", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 190px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-30 {
+    color: #717171;
+    font-family: "Inter", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 244px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .line {
+    height: 1px;
+    left: 34px;
+    object-fit: cover;
+    position: absolute;
+    top: 107px;
+    width: 466px;
+  }
+  
+  .dashboard .line-2 {
+    height: 1px;
+    left: 34px;
+    object-fit: cover;
+    position: absolute;
+    top: 161px;
+    width: 466px;
+  }
+  
+  .dashboard .line-3 {
+    height: 1px;
+    left: 34px;
+    object-fit: cover;
+    position: absolute;
+    top: 216px;
+    width: 466px;
+  }
+  
+  .dashboard .line-4 {
+    height: 1px;
+    left: 34px;
+    object-fit: cover;
+    position: absolute;
+    top: 269px;
+    width: 466px;
+  }
+  
+  .dashboard .line-5 {
+    height: 1px;
+    left: 34px;
+    object-fit: cover;
+    position: absolute;
+    top: 52px;
+    width: 466px;
+  }
+  
+  .dashboard .text-wrapper-31 {
+    color: #323232;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 64px;
+  }
+  
+  .dashboard .text-wrapper-32 {
+    color: #323232;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 120px;
+  }
+  
+  .dashboard .text-wrapper-33 {
+    color: #323232;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 174px;
+  }
+  
+  .dashboard .text-wrapper-34 {
+    color: #323232;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 228px;
+  }
+  
+  .dashboard .overlap-24 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px #0000001a;
+    height: 316px;
+    left: 899px;
+    position: absolute;
+    top: 144px;
+    width: 330px;
+  }
+  
+  .dashboard .text-wrapper-35 {
+    color: #353535;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 101px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 63px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-36 {
+    color: #353535;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 108px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 154px;
+  }
+  
+  .dashboard .h-1 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 33px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 104px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .overlap-25 {
+    border-radius: 5px;
+    height: 41px;
+    left: 40px;
+    position: absolute;
+    top: 204px;
+    width: 119px;
+  }
+  
+  .dashboard .group-2 {
+    background-color: #56b85d;
+    border-radius: 5px;
+    height: 41px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 119px;
+  }
+  
+  .dashboard .text-wrapper-37 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    left: 37px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .overlap-group-wrapper {
+    height: 41px;
+    left: 173px;
+    position: absolute;
+    top: 204px;
+    width: 121px;
+  }
+  
+  .dashboard .overlap-group-2 {
+    background-color: #56b85d;
+    border-radius: 5px;
+    height: 41px;
+    position: relative;
+    width: 119px;
+  }
+  
+  .dashboard .text-wrapper-38 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .overlap-26 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px #0000001a;
+    height: 301px;
+    left: 899px;
+    position: absolute;
+    top: 480px;
+    width: 330px;
+  }
+  
+  .dashboard .text-wrapper-39 {
+    color: #353535;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+  }
+  
+  .dashboard .text-wrapper-40 {
+    color: #a5a2a2;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 43px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-41 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 187px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 118px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-42 {
+    color: #bfbfbf;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 278px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 130px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-43 {
+    color: #bfbfbf;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 277px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 169px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-44 {
+    color: #e3ce12;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 187px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 156px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-45 {
+    color: #127fe3;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 187px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 192px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .overlap-27 {
+    height: 132px;
+    left: 30px;
+    position: absolute;
+    top: 98px;
+    width: 132px;
+  }
+  
+  .dashboard .ellipse {
+    background-color: #ffffff;
+    border-radius: 60px;
+    box-shadow: 0px 0px 20px #00000033;
+    height: 120px;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    width: 120px;
+  }
+  
+  .dashboard .text-wrapper-46 {
+    color: #353535;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 53px;
+    white-space: nowrap;
+    width: 104px;
+  }
+  
+  .dashboard .text-wrapper-47 {
+    color: #a5a2a2;
+    font-family: "Inter", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    left: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 71px;
+  }
+  
+  .dashboard .ellipse-2 {
+    border: 3.5px solid;
+    border-color: #000000;
+    border-radius: 66px;
+    height: 132px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 132px;
+  }
+  
+  .dashboard .ellipse-3 {
+    height: 132px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 132px;
+  }
+  
+  .dashboard .text-wrapper-48 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 600;
+    left: 187px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 130px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-49 {
+    color: #e3ce12;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 600;
+    left: 187px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 168px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .text-wrapper-50 {
+    color: #127fe3;
+    font-family: "Inter", Helvetica;
+    font-size: 10px;
+    font-weight: 600;
+    left: 187px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 204px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .line-6 {
+    height: 22px;
+    left: 178px;
+    position: absolute;
+    top: 121px;
+    width: 3px;
+  }
+  
+  .dashboard .line-7 {
+    height: 22px;
+    left: 178px;
+    position: absolute;
+    top: 158px;
+    width: 3px;
+  }
+  
+  .dashboard .line-8 {
+    height: 22px;
+    left: 178px;
+    position: absolute;
+    top: 195px;
+    width: 3px;
+  }
+  
+  .dashboard .text-wrapper-51 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 347px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 56px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .overlap-28 {
+    border-radius: 5px;
+    height: 39px;
+    left: 1144px;
+    position: absolute;
+    top: 62px;
+    width: 92px;
+  }
+  
+  .dashboard .text-wrapper-52 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .dashboard .group-3 {
+    border: 1px solid;
+    border-color: #56b85d;
+    border-radius: 5px;
+    height: 39px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 92px;
+  }
+  
+  .dashboard .overlap-29 {
+    border-radius: 5px;
+    height: 39px;
+    left: 1029px;
+    position: absolute;
+    top: 62px;
+    width: 105px;
+  }
+  
+  .dashboard .text-wrapper-53 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    left: 19px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .dashboard .group-4 {
+    border: 1px solid;
+    border-color: #56b85d;
+    border-radius: 5px;
+    height: 39px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 105px;
+  }
+  
+  .dashboard .overlap-30 {
+    border-radius: 5px;
+    height: 39px;
+    left: 914px;
+    position: absolute;
+    top: 62px;
+    width: 105px;
+  }
+  
+  .dashboard .text-wrapper-54 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .dashboard .overlap-wrapper {
+    height: 832px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 305px;
+  }
+  
+  .dashboard .overlap-31 {
+    background-color: #ffffffb2;
+    box-shadow: 5px 0px 60px #0000001a;
+    height: 832px;
+    position: relative;
+    width: 301px;
+  }
+  
+  .dashboard .text-wrapper-55 {
+    color: #c7c7c7;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    left: 47px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 130px;
+  }
+  
+  .dashboard .overlap-group-3 {
+    background-color: #cceace;
+    border-radius: 5px;
+    height: 48px;
+    left: 31px;
+    position: absolute;
+    top: 169px;
+    width: 239px;
+  }
+  
+  .dashboard .text-wrapper-56 {
+    color: #56b85d;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    left: 58px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .home {
+    height: 30px;
+    left: 16px;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 30px;
+  }
+  
+  .dashboard .group-5 {
+    height: 30px;
+    left: 47px;
+    position: absolute;
+    top: 679px;
+    width: 170px;
+  }
+  
+  .dashboard .text-wrapper-57 {
+    color: #bfbfbf;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    left: 43px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .img-2 {
+    height: 30px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 30px;
+  }
+  
+  .dashboard .crdb-bank-tanzania {
+    height: 40px;
+    left: 37px;
+    object-fit: cover;
+    position: absolute;
+    top: 62px;
+    width: 98px;
+  }
+  
+  .dashboard .group-6 {
+    height: 30px;
+    left: 47px;
+    position: absolute;
+    top: 509px;
+    width: 127px;
+  }
+  
+  .dashboard .text-wrapper-58 {
+    color: #bfbfbf;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .group-7 {
+    height: 30px;
+    left: 47px;
+    position: absolute;
+    top: 455px;
+    width: 137px;
+  }
+  
+  .dashboard .text-wrapper-59 {
+    color: #bfbfbf;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    left: 42px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .group-8 {
+    height: 32px;
+    left: 46px;
+    position: absolute;
+    top: 563px;
+    width: 102px;
+  }
+  
+  .dashboard .text-wrapper-60 {
+    color: #bfbfbf;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    left: 43px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .img-3 {
+    height: 32px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .dashboard .group-9 {
+    height: 30px;
+    left: 47px;
+    position: absolute;
+    top: 625px;
+    width: 105px;
+  }
+  
+  .dashboard .text-wrapper-61 {
+    color: #bfbfbf;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    left: 43px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .group-10 {
+    height: 30px;
+    left: 47px;
+    position: absolute;
+    top: 233px;
+    width: 215px;
+  }
+  
+  .dashboard .upload-2 {
+    height: 20px;
+    left: 193px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 20px;
+  }
+  
+  .dashboard .group-11 {
+    height: 30px;
+    left: 47px;
+    position: absolute;
+    top: 347px;
+    width: 215px;
+  }
+  
+  .dashboard .group-12 {
+    height: 30px;
+    left: 47px;
+    position: absolute;
+    top: 401px;
+    width: 95px;
+  }
+  
+  .dashboard .group-13 {
+    height: 32px;
+    left: 46px;
+    position: absolute;
+    top: 287px;
+    width: 216px;
+  }
+  
+  .dashboard .text-wrapper-62 {
+    color: #bfbfbf;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .dashboard .upload-3 {
+    height: 20px;
+    left: 194px;
+    object-fit: cover;
+    position: absolute;
+    top: 6px;
+    width: 20px;
+  }
+  
